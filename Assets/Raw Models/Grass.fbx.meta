@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e8aae38b99a0d4e44a1c8030375de247
+guid: bd7e6b15f4c723c49919316f6b0e8d2d
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,17 +7,22 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: petal1
-    second: {fileID: 2100000, guid: fc09a6ad491a68c4da60404a08fb5884, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: 680bf6ed5cab4425d9c957420cc23634, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pistil
-    second: {fileID: 2100000, guid: eae10e78138dd74499b7256cf9b21df4, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: 680bf6ed5cab4425d9c957420cc23634, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: stem
+      name: Material.002
+    second: {fileID: -6478536213147159724, guid: 5fadf3bf088b1094393e5bcc806679a7, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
     second: {fileID: -6478536213147159724, guid: 5fadf3bf088b1094393e5bcc806679a7, type: 3}
   materials:
     materialImportMode: 2
