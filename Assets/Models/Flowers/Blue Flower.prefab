@@ -10,11 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8425234532958339637}
   m_Layer: 0
-<<<<<<<< HEAD:Assets/Models/Flowers/Gray Flower.prefab
-  m_Name: Gray Flower
-========
-  m_Name: 2 flower red
->>>>>>>> b2de96d02826069573ac128028b9617b28f2ac49:Assets/Models/2 flower red.prefab
+  m_Name: Blue Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,19 +69,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.94917864
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.31473804
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -114,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 9201751632934143294, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 908c46f53044d6d40a02304691475c02, type: 2}
+      objectReference: {fileID: 2100000, guid: 231548a782a599c428f11c73812849a9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
 --- !u!4 &5313900885896171894 stripped

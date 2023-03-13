@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1800644916119860389}
   m_Layer: 0
-  m_Name: 1 Flower pink
+  m_Name: Bent Blue Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 9178238690425220233, guid: b93e919ee7db6cd4881def4529ec5cc1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8747246448dc24a429eb946a4890d121, type: 2}
+      objectReference: {fileID: 2100000, guid: 231548a782a599c428f11c73812849a9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b93e919ee7db6cd4881def4529ec5cc1, type: 3}
 --- !u!4 &1092488821125496908 stripped
