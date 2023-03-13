@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8425234532958339637}
   m_Layer: 0
-  m_Name: Flower2
+  m_Name: 2 flower red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,10 +95,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6571993137129281754, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c4860634464bf74438bee0c13d44ffa7, type: 2}
     - target: {fileID: 919132149155446097, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
       propertyPath: m_Name
       value: flower 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3566390031902043909, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 61efdc44646f06f42a44bc910b249543, type: 2}
+    - target: {fileID: 9201751632934143294, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 908c46f53044d6d40a02304691475c02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8aae38b99a0d4e44a1c8030375de247, type: 3}
 --- !u!4 &5313900885896171894 stripped
