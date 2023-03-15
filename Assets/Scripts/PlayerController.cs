@@ -11,19 +11,17 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.LookAt(sword);
+        //transform.LookAt(sword);
         controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-        if(moveVertical != 0 || moveHorizontal != 0){
-            Vector3 moveTo = sword.position;
-            moveTo.y = 0;
-            controller.Move(moveTo * Time.deltaTime * speed);
+        float moveHorizontal = Input.GetAxisRaw("Horizontal");
+        float moveVertical = Input.GetAxisRaw("Vertical");
+        if(Mathf.Abs(moveVertical + moveHorizontal) > 0){
+            controller.SimpleMove(Time.deltaTime * speed * -Vector3.right);
         }
     }
 }
